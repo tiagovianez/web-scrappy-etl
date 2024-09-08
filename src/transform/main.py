@@ -39,7 +39,6 @@ conn = sqlite3.connect('../../data/quotes.db')
 # Write dataFrame at database SQLite
 df.to_sql('mercadolivre_itens', conn, if_exists='replace', index=False)
 
-print(df)
 
 # close connection with database
 conn.close()
