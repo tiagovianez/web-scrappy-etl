@@ -178,3 +178,7 @@ pyrightconfig.json
 
 #scrapy-configs
 scrapy.cfg
+
+
+# airflow project
+airflow_project/
